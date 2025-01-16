@@ -13,7 +13,8 @@ export default {
         text: '#3E3E3E',
         'text-light': '#777',
         background: '#FAF3E0',
-        highlight: '#F9F1E7'
+        highlight: '#F9F1E7',
+        'gray-light': '#F8F8F8'
       }
     },
   },
