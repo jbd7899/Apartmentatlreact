@@ -16,22 +16,19 @@ const Navbar = () => {
       <button 
         className="md:hidden p-2 hover:bg-gray-100 rounded"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        aria-label="Toggle menu"
       >
         <Menu className="h-6 w-6" />
       </button>
       
       <div className={`${isMenuOpen ? 'block' : 'hidden'} md:block`}>
-        <div className="flex flex-col md:flex-row gap-4">
-          <a 
-            href="https://apartmentsatl.appfolio.com/connect/users/sign_in"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-primary text-white font-semibold rounded hover:bg-primary-dark transition-colors duration-300"
-          >
-            Resident Portal
-          </a>
-        </div>
+        <a 
+          href="https://apartmentsatl.appfolio.com/connect/users/sign_in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-primary text-white font-semibold rounded hover:bg-primary-dark transition-colors duration-300"
+        >
+          Resident Portal
+        </a>
       </div>
     </nav>
   )
